@@ -14,12 +14,12 @@ Then you could go to **View Code** to get your key and endpoint, which you will 
    `git clone https://github.com/jr-MS/deepseek-chatbot-webapp.git`
 2. Go to chat_app.py file, update your own **key** and **endpoint** of your deepseek deployment.
 3. Go to VS Code Azure Extension, choose *Deploy to web app* using forked project.
-![image1](../deepseek-chatbot-webapp/images/deploy.png)
+![image1](./images/deploy.png)
 4. On Azure, find the Python app and modify the startup command as follows, then restart the app.
    `bash /home/site/wwwroot/streamlit.sh`
-![image2](../deepseek-chatbot-webapp/images/start-up.png)
+![image2](./images/start-up.png)
 5. Restart the web app.
-![image3](../deepseek-chatbot-webapp/images/restart-web-app.png)
+![image3](./images/restart-web-app.png)
 
 
 Now, you can go to the web app site and chat with your deepseek model!☺️
