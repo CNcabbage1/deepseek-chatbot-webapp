@@ -9,13 +9,13 @@ st.set_page_config(page_title="Deepseek Chatbot", page_icon="🤖")
 
 # Initialize Azure client
 def init_azure_client():
-    api_key = ('Your-API-Key')
+    api_key = ('BgrBWWeObo77AXquySThfzd1gxQ5Ygkb')
     if not api_key:
         st.error("Azure API key not found. Please set the AZURE_INFERENCE_CREDENTIAL environment variable.")
         return None
     
     return ChatCompletionsClient(
-        endpoint='Your-Endpoint',
+        endpoint='https://DeepSeek-R1-djwtest.eastus2.models.ai.azure.com',
         credential=AzureKeyCredential(api_key)
     )
 
